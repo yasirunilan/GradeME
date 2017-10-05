@@ -1,0 +1,20 @@
+sudo: required
+dist: trusty
+language: node_js
+node_js:
+  - 6
+
+
+before_script:
+  - ng build --prod
+
+script:
+  - ng lint --format=stylish
+
+cache:
+  directories: node_modules
+
+# safelist
+branches:
+only:
+  - master
