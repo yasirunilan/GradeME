@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
 
 ## Contributing
-##### Please see [CONTRIBUTION GUIDE](https://github.com/yasirunilan/Algorithms/blob/master/CONTRIBUTING.md)
+##### Please see [CONTRIBUTION GUIDE](https://github.com/yasirunilan/RahuApp/blob/master/CONTRIBUTING.md)
 
 
 ## Development server
