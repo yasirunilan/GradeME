@@ -31,3 +31,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Dockerfile 
+
+Use i.e docker build ng2docker/grademe . in the project directory 
+If you save the dockerfile elsewhere remember to change the paths within the dockerfile
+run your container i.e. with docker run --rm -p 80:4200 ng2docker/grademe 
+open your browser - type use localhost as URL. 
